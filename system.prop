@@ -41,10 +41,6 @@ ro.media.dec.jpeg.memcap=20000000
 
 # EGL
 ro.opengles.version=131072
-Debug.performance.tuning=1
-debug.composition.type=mdp
-windowsmgr.max_events_per_sec=120
-hwui.render_dirty_regions=false
 
 # Misc.
 ro.lge.proximity.delay=10
