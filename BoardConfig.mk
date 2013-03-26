@@ -48,7 +48,8 @@ BOARD_KERNEL_NEW_PPPOX := true
 
 # Legacy
 TARGET_USES_MDP3 := true
-TARGET_USES_PMEM := true
+TARGET_USES_ION := true
+COMMON_GLOBAL_CFLAGS += -DHTCLOG
 
 # Hacks for legacy mdp drivers
 BOARD_ADRENO_AVOID_EXTERNAL_TEXTURE := true
